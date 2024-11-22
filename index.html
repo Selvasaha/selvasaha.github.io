@@ -3,97 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selvaprakash P - Full Stack Developer Portfolio</title>
+    <title>Thunder Industries</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Thunder.png" type="image/x-icon">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Selvaprakash P</h1>
-            <h2>Full Stack Developer</h2>
-            <nav>
-                <ul>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+        <div class="logo">
+            <a href="index.html"><img src="Thunder.png" alt="Company Logo"></a>
         </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section id="about" class="section">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>
-                Hello, I am Selvaprakash P, a dedicated full stack developer with expertise in Python, HTML, CSS, JavaScript, ReactJS, Django, and NodeJS. I enjoy taking on challenging projects, staying updated with the latest technologies, and delivering robust applications. I aim to write clean and efficient code while focusing on creating user-friendly interfaces and scalable backend systems.
-            </p>
+    <section id="main-content">
+        <div class="hero">
+            <h1>Welcome to Our Service</h1>
+            <p>We are providing many services</p>
+            <a href="#login" class="cta-btn" onclick="showLoginForm()">Get Started</a>
         </div>
-    </section>
-
-    <section id="skills" class="section">
-        <div class="container">
-            <h2>Skills</h2>
-            <div class="skills-category">
-                <h3>Frontend Development</h3>
-                <div class="skills-grid">
-                    <div class="skill">HTML</div>
-                    <div class="skill">CSS</div>
-                    <div class="skill">JavaScript</div>
-                    <div class="skill">ReactJS</div>
-                </div>
+        <div class="features">
+            <div class="feature">
+                <h2>Feature 1</h2>
+                <p>Vaikanum</p>
             </div>
-            <div class="skills-category">
-                <h3>Backend Development</h3>
-                <div class="skills-grid">
-                    <div class="skill">Python</div>
-                    <div class="skill">Django</div>
-                    <div class="skill">NodeJS</div>
-                </div>
-            </div>
-            <div class="skills-category">
-                <h3>General Tools & Database</h3>
-                <div class="skills-grid">
-                    <div class="skill">GitHub</div>
-                    <div class="skill">MySQL</div>
-                    <div class="skill">Amazon Sagemaker</div>
-                </div>
+            <div class="feature">
+                <h2>Feature 2</h2>
+                <p>Innum yosikala</p>
             </div>
         </div>
-    </section>
 
-    <section id="projects" class="section">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Digital Car Parking System</h3>
-                <p>
-                    Developed a Digital Car Parking System using Python and OpenCV, detecting empty parking spaces through real-time video analysis and computer vision techniques to streamline the parking experience.
-                </p>
-            </div>
-            <div class="project">
-                <h3>E-Waste Management System</h3>
-                <p>
-                    Contributed to the development of an E-Waste Management System, analyzing electronic waste quality using data analysis and categorization techniques, facilitating efficient allocation to relevant recycling companies for responsible disposal and processing.
-                </p>
+        <div class="testimonials">
+            <h3>What Our Clients Say</h3>
+            <div class="testimonial">
+                <p>"Amazing service! Highly recommend." - Thunder</p>
             </div>
         </div>
-    </section>
 
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Connect with me on <a href="https://www.linkedin.com/in/selvaprakash-p/" target="_blank">LinkedIn</a></p>
-            <p>Email: <a href="mailto:selvaprakash0124@gmail.com" target="_blank">selvaprakash0124@gmail.com</a></p>
+        <div class="cta-section">
+            <h3>Ready to Get Started?</h3>
+            <a href="#signup" class="cta-btn" onclick="showSignUpForm()">Sign Up Now</a>
         </div>
     </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Selvaprakash P. All rights reserved.</p>
+        <div class="foot">
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                    <li><a href="#terms">Terms of Service</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <p>Contact Us: selvaprakash0124@gmail.com</p>
+                <p>Phone: +91 9360712178</p>
+            </div>
+
+            <div class="footer-social">
+                <ul>
+                    <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                    <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/in/selvaprakash-p/" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-newsletter">
+                <h4>Subscribe to Our Newsletter</h4>
+                <form>
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Thunder Industries. All Rights Reserved.</p>
         </div>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
